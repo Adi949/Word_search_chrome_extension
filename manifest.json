@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Word meaning search",
+  "description": "It search the meaning of the selected word ",
+  "background": {
+    "persistent": false,
+    "scripts": ["script.js"]
+  },
+  "icons": {
+    "128": "i.png"
+  },
+  "permissions": ["contextMenus", "tabs"]
+}
